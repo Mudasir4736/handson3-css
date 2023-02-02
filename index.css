@@ -50,7 +50,7 @@ margin: 20px;
 .box3{
   position: absolute;
   left: 50px;
-  bottom: -200px;
+  top: 700px;
   font-size: 50px;
   line-height: 60px;
  
@@ -58,7 +58,7 @@ margin: 20px;
 .box4{
   position: absolute;
   right: 100px;
-  bottom: -200px;
+  top: 700px;
   font-size: 50px;
   
 }

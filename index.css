@@ -12,12 +12,14 @@
     padding: 10px;
     line-height: 30px;
     border-radius: 15px;
+    box-shadow: 7px 7px 0px 0px purple;
+    text-shadow: 3px 3px 3px purple;
 
 }
 .container
   {
     border: 5px solid green;
-    width: 100%;
+    width: 99.5%;
     height: 1000px;
 }
 .box{
@@ -27,6 +29,8 @@
   display: inline-block;
   border-radius: 10%;
   text-align: center;
+  text-shadow: 3px 3px 3px purple;
+  box-shadow: 7px 7px 0px 0px purple;
 }
 .box1{
   font-size: 50px;
@@ -36,27 +40,31 @@
   top: 200px;
 }
 .box2{
+ padding-top: 40px;
 margin: 20px;
   position: absolute;
   right: 10px;
   top: 200px;
+ 
 }
 .box3{
   position: absolute;
   left: 10px;
-  bottom: -300px;
+  bottom: -200px;
   font-size: 50px;
   line-height: 60px;
+ 
 }
 .box4{
   position: absolute;
   right: 10px;
-  bottom: -300px;
+  bottom: -200px;
   font-size: 50px;
+  
 }
 .child2{
   border: 5px solid red;
-  background-color: lightgreen;
+  background-color:yellowgreen;
   position: fixed;
   z-index: 1;
   bottom: 1px;
@@ -70,6 +78,7 @@ margin: 20px;
   padding: 10px;
   line-height: 30px;
   border-radius: 15px;
+  box-shadow: 7px 7px 0px 0px purple;
 
 }
 body{
@@ -86,39 +95,41 @@ body{
 
 }
 .bbox1{
-  background-color: chartreuse;
-  position:relative;
+  background-color:yellowgreen;
+  position:absolute;
   left: 0px;
-  top: 0px;
+  top: 70px;
   width: 550px;
   height:400px;
   text-align: center;
   font-size: large;
   line-height: 50px;
+
 }
 .bbox2{
  
-  background-color: chartreuse;
+  background-color:yellowgreen;
   width: 550px;
   height:400px;
   text-align: center;
   position:absolute;
   right: 0px;
-  top: 80px;
+  top: 70px;
   font-size: large;
-  line-height: 50px;
+  line-height: 45px;
+ 
 }
 .bbox3{
-  background-color: chartreuse;
+  background-color:yellowgreen;
   
   height:300px;
-  position: relative;
-  top: 5px;
+  position: absolute;
+  top: 500px;
   left: 05px;
   font-size: large;
   line-height: 50px;
 }
 .formc{
   font-size: 30px;
-  line-height: 50px;
+  line-height: 30px;
 }

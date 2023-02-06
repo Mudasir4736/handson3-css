@@ -64,14 +64,14 @@ margin: 20px;
 }
 .child2{
   border: 5px solid red;
-  background-color:yellowgreen;
+  background-color:#32cd51;
   position: fixed;
   z-index: 1;
   bottom: 1px;
   left: 700px;
   /* display: inline-block; */
-  width: 400px;
-  height: 100px;
+  width: 600px;
+  height: 50px;
   text-align: center;
   color: chocolate;
   font-size: 25px;
@@ -133,4 +133,12 @@ body{
 .formc{
   font-size: 30px;
   line-height: 30px;
+}
+.span1{
+  float: left;
+  display: inline-block;
+}
+.span2{
+  float: right;
+  display: inline-blocks;
 }
